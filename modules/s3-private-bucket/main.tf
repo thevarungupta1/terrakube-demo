@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "this" {
-  bucket        = var.bucket_name
+  bucket        = "my-private-bucket-8888888888888888"
   force_destroy = true
   
 }
