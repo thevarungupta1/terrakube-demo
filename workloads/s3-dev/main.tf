@@ -9,6 +9,4 @@ module "private_bucket" {
     ManagedBy   = "terrakube"
     Lab         = "20-private-s3"
   }
-
-  force_destroy = true
 }
